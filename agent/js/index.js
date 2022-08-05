@@ -2,7 +2,7 @@
 const express = require('express')
 const cluster = require("cluster");
 const totalCPUs = require("os").cpus().length;
-const port = 3001
+const port = 8080
 
 let threshold = 0.9;
 let labelsToInclude = ["identity_attack", "insult", "threat"];
